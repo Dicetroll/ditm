@@ -1,0 +1,110 @@
+{
+  "id": "demon-in-the-mirror",
+  "title": "demon-in-the-mirror",
+  "version": "1.0.0",
+   "manifest": "https://github.com/Dicetroll/ditm/releases/latest/download/module.json",
+  "download": "https://github.com/Dicetroll/ditm/releases/download/1.0.0/module.zip",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "13"
+  },
+  "packs": [
+    {
+      "name": "ditm-actors",
+      "label": "DITM-Actors",
+      "path": "packs/ditm-actors",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ditm-adventures",
+      "label": "DITM-Adventures",
+      "path": "packs/ditm-adventures",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ditm-items",
+      "label": "DITM-Items",
+      "path": "packs/ditm-items",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ditm-journals",
+      "label": "DITM-Journals",
+      "path": "packs/ditm-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ditm-macros",
+      "label": "DITM-Macros",
+      "path": "packs/ditm-macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ditm-playlists",
+      "label": "DITM-Playlists",
+      "path": "packs/ditm-playlists",
+      "type": "Playlist",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ditm-rolltables",
+      "label": "DITM-Rolltables",
+      "path": "packs/ditm-rolltables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "ditm-scenes",
+      "label": "DITM-Scenes",
+      "path": "packs/ditm-scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
